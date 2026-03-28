@@ -52,7 +52,7 @@ void PrintMonthCalendar(short Month, short Year)
 
 	int i;
 	for (i = 0; i < current; i++)
-		printf(" ");
+		printf("     ");
 	for (int j = 1; j <= NumberOfDays; j++)
 	{
 		printf("%5d", j);
